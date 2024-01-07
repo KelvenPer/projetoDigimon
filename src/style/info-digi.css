@@ -1,0 +1,85 @@
+.info-digimons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 0;
+    height: 50px;
+    margin: 0.3rem 0;   
+}
+
+.HP{
+    display: flex;
+    align-items: center;
+    margin: 0.3rem 0;
+    justify-content: space-around;
+    font-weight: 400px;
+    color: white;
+}
+
+.ATK{
+    display: flex;
+    align-items: center;
+    margin: 0.3rem 0;
+    justify-content: space-around;
+    font-weight: 400px;
+    color: white;
+}
+
+.DEF{
+    display: flex;
+    align-items: center;
+    margin: 0.3rem 0;
+    justify-content: space-around;
+    font-weight: 400px;
+    color: white;
+}
+
+/* BARRINHAS */
+
+.d-hp-ext{
+    position: relative;
+    background-color: #ffffff;
+    height: 15px;
+    width: 80%;
+    border-radius: 35px;
+}
+
+.d-hp-int{
+    position: absolute;
+    background-color: #d8d8d8;
+    height: 100%;
+    width: 0;
+    border-radius: 35px;
+}
+
+.d-atk-ext{
+    position: relative;
+    background-color: #ffffff;
+    height: 15px;
+    width: 80%;
+    border-radius: 35px;
+}
+
+.d-atk-int{
+    position: absolute;
+    background-color: #d8d8d8;
+    height: 100%;
+    width: 0;
+    border-radius: 35px;
+}
+.d-def-ext{
+    position: relative;
+    background-color: #ffffff;
+    height: 15px;
+    width: 80%;
+    border-radius: 35px;
+}
+
+.d-def-int{
+    position: absolute;
+    background-color: #d8d8d8;
+    height: 100%;
+    width: 0;
+    border-radius: 35px;
+}
